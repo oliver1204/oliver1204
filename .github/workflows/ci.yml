@@ -12,19 +12,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@main
-      - name: Install dependencies
-        run: |
-          pip3 install setuptools --user
-          pip3 install PyGithub --user
-          pip3 install wordcloud --user
-          pip3 install matplotlib --user
-      - name: run python script
-        env:
-          GITHUB_LOGIN: olifer655
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python3 main.py
       - name: config git info
-        run: |
+        run: 
           git config --global user.email "348560971@qq.com"
           git config --global user.name "olifer655"
       - name: update readme
