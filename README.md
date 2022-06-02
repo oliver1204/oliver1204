@@ -21,3 +21,6 @@ Here are some ideas to get you started:
 
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=olifer655&theme=radical&bg_color=&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
 
+# Latest Blog Posts
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
