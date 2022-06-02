@@ -1,0 +1,13 @@
+name: MY CI
+on: 
+  push:
+    branches: [ master ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Collect the number of stars
+      run: echo "Collect the number of stars"
+   
+
+
