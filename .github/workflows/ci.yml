@@ -13,13 +13,13 @@ jobs:
     steps:
       - uses: actions/checkout@main
       - name: config git info
-        run: 
+        run: |
           git config --global user.email "348560971@qq.com"
           git config --global user.name "olifer655"
       - name: update readme
         run: echo "update readme" > README.md
       - name: Commit and push if changed
-        run:
+        run: |
           git add .
           git commit -m 'update README.md'
           git push
