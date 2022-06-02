@@ -12,14 +12,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@main
-      - name: config git info
+      - name: Config git info
         run: |
           git config --global user.email "348560971@qq.com"
           git config --global user.name "olifer655"
+      - name: Pull 
+        run: git pull origin main
       - name: update readme
-        run: |
-           git pull 
-           echo "update readme" > README.md
+        run: echo "update readme" > README.md
       - name: Commit and push if changed
         run: |
           git add .
