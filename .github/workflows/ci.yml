@@ -16,8 +16,8 @@ jobs:
         run: |
           git config --global user.email "348560971@qq.com"
           git config --global user.name "olifer655"
-      - name: update readme
-        run: echo "update readme" > README.md
+      #- name: update readme
+        #run: echo "update readme" > README.md
       - name: Commit and push if changed
         run: |
           git add .
